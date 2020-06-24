@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f9f9f9;
+  font-size: 0.9rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+table thead {
+  border: 0 !important;
+}
+
+td {
+  border: 0 !important;
+  vertical-align: middle !important;
+}
+
+table tbody tr {
+  transition: border 0.5s ease-in;
+  border: 1px solid #eee !important;
+}
+
+table tbody tr:hover {
+  border: 1px solid #3298ee !important;
+}
+
+table thead th {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  font-size: 14px;
+}
+
+.nav-active {
+  border-bottom: 2px solid #ffffff;
+}
+
+.custom-dropdown-menu {
+  position: absolute;
+  padding: 1rem 0.25rem;
+  top: 100%;
+  left: 0;
+  display: none;
+  background-color: #ffffff;
+  min-width: 200px;
+  z-index: 1;
+}
+
+.custom-dropdown-menu.show {
+  display: block;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  user-select: none;
+}
+
+.user-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}

@@ -1,0 +1,14 @@
+export const ADD_USER = "ADD_USER";
+export const ADD_USER_SUCCESS = "ADD_USER_SUCCESS";
+export const EDIT_USER = "EDIT_USER";
+export const EDIT_USER_SUCCESS = "EDIT_USER_SUCCESS";
+export const DELETE_USER = "DELETE_USER";
+export const DELETE_USER_SUCCESS = "DELETE_USER_SUCCESS";
+export const GET_USER = "GET_USER";
+export const GET_USER_SUCCESS = "GET_USER_SUCCESS";
+export const GET_ALL_USER = "GET_ALL_USER";
+export const GET_ALL_USER_SUCCESS = "GET_ALL_USER_SUCCESS";
+export const ERROR = "ERROR";
+export const SUCCESS = "SUCCESS";
+export const RESET = "RESET";
+export const RESET_CURRENT_USER = "RESET_CURRENT_USER";
