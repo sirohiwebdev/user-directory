@@ -1,2 +1,2 @@
-# user-directory
+# USER-DIRECTORY
 User Directory MERN application
