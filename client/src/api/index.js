@@ -1,6 +1,6 @@
 const headers = new Headers();
 headers.append("Content-Type", "application/json");
-const URL = "http://localhost:5000/api/";
+const URL = "https://newuserdirectory.herokuapp.com/api/";
 
 const API = {
   GetUser: async id => {
